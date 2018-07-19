@@ -218,14 +218,23 @@ a:active {
 
 /*HERO SECTION STYLING*/
 
-  #hero {
-      background-image: url(../img/profile-banner.jpg);
-      
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-  }
+#hero {
+    background-image: url(../img/profile-banner.jpg);
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero .contact-hero a{
+  color: #868e96;
+}
+
+#hero .contact-hero a:hover{
+  text-decoration: none;
+  color: #fff;
+} 
 
 
 /*ABOUT SECTION*/
