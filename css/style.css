@@ -239,6 +239,10 @@ a:active {
 
 /*ABOUT SECTION*/
 
+#about .intro {
+  line-height: 1.5;
+}
+
 #about .title {
     color: #444;
 }
@@ -257,7 +261,7 @@ a:active {
 
 #about li .title {
     text-transform: none;
-    color: #444;
+    color: #868e96;
 }
 
 
